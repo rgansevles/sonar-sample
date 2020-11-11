@@ -12,7 +12,7 @@ public class App {
     public String getGreeting() {
 
         Set<String> names = new HashSet<>();
-        Set<String> names2 = new HashSet<>();
+        Set<String> namesx = new HashSet<>();
 
         return Arrays.asList("John", "Joe", "john").stream()
                 .map(name -> name.toLowerCase())
